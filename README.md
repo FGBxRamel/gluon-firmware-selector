@@ -85,6 +85,12 @@ To add a device follow these steps:
 5. Add the installation instructions in the `devices_info` list. This is idealy an OpenWRT link, otherwise the Git commit of the device. The scheme is similar to the one in number 3. Just look at the other devices.
 6. Kindly open a Pull Request. Thank you for your contribution!
 
+### Adding a new picture
+#### Similar looking device already exists
+
+If there is a device which looks **very** similar to the one you want to add, you may just add a symlink. Look at the `pictures` directory for reference.
+
+
 ### License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
