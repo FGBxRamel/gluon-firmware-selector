@@ -96,7 +96,7 @@ If there is a device which looks **very** similar to the one you want to add, yo
 Your device does not have a lookalike? Follow these steps:
 
 0. Make sure the device already exists in the `devices.js`
-1. Create the picture using whatever software you like. One that supports vector graphics is preferred (e.g. Inkscape, Draw.io, ...) so you can export the image as SVG for the next step. Please do not convert JPG to SVG (vice versa is fine).
+1. Create the graphic using whatever software you like. However, it has to  support [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) (e.g. Inkscape, Draw.io, ...). This is needed so that you can export the image as SVG for the next step. Please do not just convert an JPG to SVG (vice versa is fine).
 2. Before making a PR to this repo, please first add the device as SVG to the [device picture repo](https://github.com/freifunk/device-pictures). Preferably wait until that PR is merged, to avoid needing style changes in both repos on change requests
 3. Make a fork, a branch and add your picture(s) to it. The name should always be the name listed in `devices.js`, e.g. netgear-rbr50.jpg for the Netgear Orbi RBR50. If the version is in the name, you have to include that too, e.g. netgear-wndr3700v2 and netgear-wndr3700v4.
 4. Make sure your picture meets the following requirements:
